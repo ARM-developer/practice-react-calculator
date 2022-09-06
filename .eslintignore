@@ -1,0 +1,6 @@
+dist
+node_modules
+# .eslintrc.cjs
+*.svg
+src/vite-env.d.ts
+vite.config.ts

@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { ReactElement, useState } from 'react'
 
-const Counter = (): void => {
+const Counter = (): ReactElement => {
   const [counter, setCounter] = useState(0)
 
   const incrementCounter = (): void => {
@@ -14,7 +14,7 @@ const Counter = (): void => {
   return (
     <>
       <button data-testid="increment" onClick={incrementCounter}>
-+
+        +
       </button>
       <p data-testid="counter">{counter}</p>
       <button disabled data-testid="decrement" onClick={decrementCounter}>

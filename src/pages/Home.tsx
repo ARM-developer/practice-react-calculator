@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { ReactElement, useState } from 'react'
 import reactLogo from '../assets/react.svg'
 
-function Home() {
+function Home(): ReactElement {
   const [count, setCount] = useState(0)
 
   if (count === 0) {
@@ -24,7 +24,7 @@ function Home() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR  123
+          Edit <code>src/App.tsx</code> and save to test HMR 123
         </p>
       </div>
       <p className="read-the-docs">
