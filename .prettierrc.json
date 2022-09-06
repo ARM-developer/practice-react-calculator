@@ -5,6 +5,5 @@
   "singleQuote": true,
   "bracketSpacing": true,
   "bracketSameLine": true,
-  "arrowParens": "always",
-  "endOfLine": "auto"
+  "arrowParens": "always"
 }

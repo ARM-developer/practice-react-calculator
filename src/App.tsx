@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Counter from './pages/Test'
 import { ReactElement } from 'react'
 
-function App (): ReactElement {
+function App(): ReactElement {
   return (
     <Router>
       <Routes>

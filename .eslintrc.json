@@ -4,10 +4,7 @@
     "es2021": true,
     "node": true
   },
-  "extends": [
-    "standard-with-typescript",
-    "plugin:react/recommended"
-  ],
+  "extends": ["standard-with-typescript", "plugin:react/recommended"],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -19,7 +16,6 @@
     "react/react-in-jsx-scope": "off",
     "space-before-function-paren": "off",
     "@typescript-eslint/space-before-function-paren": "off",
-    "@typescript-eslint/semi": "warn",
     "indent": ["error", 2],
     "@typescript-eslint/indent": ["error", 2]
   },
