@@ -5,16 +5,20 @@
   "type": "module",
   "author": "ARM-dev",
   "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "mathjs": "11.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.3.0"
+    "wouter": "2.8.0-alpha.2"
   },
   "devDependencies": {
+    "@testing-library/react": "13.4.0",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
@@ -27,10 +31,13 @@
     "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-react": "^7.31.7",
+    "happy-dom": "6.0.4",
     "postcss": "8.4.16",
     "prettier": "2.7.1",
+    "prettier-plugin-tailwindcss": "0.1.13",
     "tailwindcss": "3.1.8",
     "typescript": "^4.8.2",
-    "vite": "3.0.7"
+    "vite": "3.0.7",
+    "vitest": "0.23.4"
   }
 }

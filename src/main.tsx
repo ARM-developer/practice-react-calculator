@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import App from './app'
 import './assets/css/index.css'
 
 const ContainerRoot = document.getElementById('root')
